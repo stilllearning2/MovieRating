@@ -23,7 +23,7 @@ var movies = {
     showList: function(){
         for(let i = 0; i < this.movieList.length; i++) 
             {
-                $("#second").text = this.movieList[i] + "<br/>";
+                $("#second").text(this.movieList[i] + "<br/>");
 
             }
 
