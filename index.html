@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Movie rating site</title>
-<link rel="stylesheet" type="text/css" href="moiveRating.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="movie.js"></script>
-<script type="text/javascript" src="main.js"></script>
+    <meta charset="UTF-8">
+    <title>Movie rating site</title>
+    <link rel="stylesheet" type="text/css" href="moiveRating.css">
 </head>
 <body>
-<div id="first">
-    <h1>Enter List of Movies and Rate</h1>
-    <label id="lblTitle">Movie Title</label>
-    <input type="text" id="title" ><br/><br/>
-    <label id="lblRate">Rating</label>
-    <input type="text" id="rating" ><br/><br/>
-    <label id="message"></label>
-    <button id="submit" type="button" > Add Movie</button><br/><br/>
-    <button id="showMoive" type="button">Show movies</button><br/>
-</div>
-<div id="second">
-    <lt>
-        <li></li>
-    </lt>
-</div>
+    <div id="first">
+        <h1>Enter List of Movies and Rate</h1>
+        <label id="lblTitle">Movie Title</label>
+        <input type="text" id="title" >
+        <br/><br/>
+        <label id="lblRate">Rating</label>
+        <input type="text" id="rating" >
+        <br/><br/>
+        <label id="message"></label>
+        <br/><br/>
+        <button id="submit" type="button" > Add Movie</button>
+        <br/><br/>
+        <button id="showMovies" type="button">Show movies</button><br/>
+    </div>
+    
+    <div id="second">
+        <ul>
+        </ul>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="movie.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
